@@ -5,12 +5,37 @@ body {
     text-indent: 15px;
     word-spacing: 5px;
 }
-h2 {
+h1 {
     color: black;
     font-style: normal;
+    background-color: skyblue;
 }
 h3 {
     text-decoration: underline;
     color: cadetblue;
     text-transform: uppercase;
+    background-color: skyblue;
+}
+th {
+    color: black;
+    font-size: 25px;
+}
+td {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+tr {
+    border-color: royalblue;
+    background-color: skyblue;
+}
+p {
+    background-color: skyblue;
+    text-align: center;
+}
+ul {
+    background-color: skyblue;
+}
+ol {
+    background-color: skyblue;
 }

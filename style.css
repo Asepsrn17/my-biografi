@@ -5,16 +5,19 @@ body {
     text-indent: 15px;
     word-spacing: 5px;
 }
+p {
+    color: black;
+}
 h1 {
     color: black;
     font-style: normal;
-    background-color: skyblue;
+    background-color:cadetblue;
+    border-radius: 100px;
 }
 h3 {
     text-decoration: underline;
     color: cadetblue;
     text-transform: uppercase;
-    background-color: skyblue;
 }
 th {
     color: black;
@@ -29,13 +32,6 @@ tr {
     border-color: royalblue;
     background-color: skyblue;
 }
-p {
-    background-color: skyblue;
-    text-align: center;
-}
 ul {
-    background-color: skyblue;
-}
-ol {
     background-color: skyblue;
 }

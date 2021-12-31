@@ -4,9 +4,11 @@ body {
     text-align: justify;
     text-indent: 15px;
     word-spacing: 5px;
+    background: khaki;
 }
 p {
-    color: black;
+    color: green;
+    font-size: 12pt;
 }
 h1 {
     color: black;
@@ -21,17 +23,34 @@ h3 {
 }
 th {
     color: black;
-    font-size: 25px;
+    font-size: 15px;
 }
 td {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
+    font-size: 10pt;
 }
 tr {
     border-color: royalblue;
     background-color: skyblue;
 }
-ul {
-    background-color: skyblue;
+ul li {
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;    
+    color:green; 
+}
+ol li {
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+.hello:link {
+    color: crimson;
+}
+.hello:hover {
+    font-family: arial;
+    font-size: 20px;
+    font-style: normal;
+    color: red;
 }

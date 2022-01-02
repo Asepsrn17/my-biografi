@@ -4,21 +4,19 @@ body {
     text-align: justify;
     text-indent: 15px;
     word-spacing: 5px;
-    background: khaki;
+    background-image: url(awan.jpg);
 }
 p {
-    color: green;
+    color: black;
     font-size: 12pt;
 }
 h1 {
     color: black;
     font-style: normal;
-    background-color:cadetblue;
-    border-radius: 100px;
 }
 h3 {
     text-decoration: underline;
-    color: cadetblue;
+    color: blue;
     text-transform: uppercase;
 }
 th {
@@ -38,12 +36,12 @@ tr {
 ul li {
     font-size: 12pt;
     font-family: 'Times New Roman', Times, serif;    
-    color:green; 
+    color:black; 
 }
 ol li {
     font-size: 12pt;
     font-family: 'Times New Roman', Times, serif;
-    color: green;
+    color: black;
 }
 .hello:link {
     color: crimson;

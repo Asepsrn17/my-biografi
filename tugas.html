@@ -1,107 +1,130 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Portofolio</title>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>bootstrap 1</title>
 	<link rel="stylesheet" href="style.css">
-</head>
-<body>
-	<h1>My Portopolio</h1>
-	<hr color="black">
-	</br>
-	<h3>Biografi</h3>	
-	<p>
-		Haii perkenalkan nama saya Asep Suryana, berasal dari Kampung Cikajang,Kabupaten Garut, Jawa Barat.</br>
-		Kesibukan saya saat ini adalah belajar programing di eduwork,
-	</p>	
-	<p>
-		saya berharap dengan belajar di eduwork dapat menambah pengetahuan dan kemampuan saya dalam dunia teknologi.
-		Saya berharap dapat menjadi seorang programer yang handal dan dapat diandalkan oleh perusahaan tempat saya bekerja nanti.
-	</p>
-	<h3>Beberapa Materi yang di pelajari :</h3>	
-	<ul>
-		<li>Git</li>
-		<li>Frontend</li>
-		<li>Java Script</li>
-		<li>Java Script OOP</li>
-		<li>Asynchronous</li>
-		<li>ReactJS</li>
-		<li>NodeJS x Express JS</li>
-		<li>My Sql</li>
-		<li>MongoDB</li>
-	</ul>		
-	<h3>Skill :</h3>
-	<ol>
-		<li>HTML</li>
-		<li>CSS</li>
-		<li>Java Script</li>
-		<li>Phyton</li>
-	</ol>
-	<a href="http:www.intagram.com" class="follow">follow my instagram</a>
-	<h3>Daftar rekan yang belajar di eduwork :</h3>
-	<table border="2px" cellpadding="20" cellspacing="0">
-		<thead style="font-size: 20px">
-			<tr>
-				<th>Nama</th>
-				<th>Asal</th>
-				<th>pendidikan</th>
-				<th>Umur</th>
-				<th>Jenis Kelamin</th>	
-			</tr>	
-		</thead>
-			<tr>
-				<td>Asep Suryana</td>
-				<td>Jawa Barat</td>
-				<td>SMA</td>
-				<td>24</td>
-				<td>Laki-laki</td>
-			</tr>
-			<tr>
-				<td>Bayu</td>
-				<td>Jawa Timur</td>
-				<td>S1</td>
-				<td>25</td>
-				<td>laki-laki</td>
-			</tr>
-			<tr>
-				<td>Neng Surya</td>
-				<td>Jawa Tengah</td>
-				<td>S1</td>
-				<td>20</td>
-				<td>Perempuan</td>
-			</tr>
-			<tr>
-				<td>Sandi</td>
-				<td>Jawa Barat</td>
-				<td>SMA</td>
-				<td>26</td>
-				<td>Laki-Laki</td>
-			</tr>
-	</table>
-	<br/>
-	<h3>Ceritakanlah tentang diri anda</h3>
-	<form>
-		<table border= cellspacing="10" cellpadding="10">
-			<tr>
-				<td width="100px">Nama Anda</td>
-				<td><input type="text" name="Nama Anda"></td>
-			</tr>
-			<tr>
-				<td width="100px">Tanggal Lahir</td>
-				<td><input type="date" name="Tanggal Lahir"></td>
-			</tr>
-			<tr>
-				<td width="100px">Alamat Anda</td>
-				<td><textarea cols="25" rows="5"></textarea></td>
-			</tr>
-			<tr>
-				<td width="100px">Hobi Anda</td>
-				<td><textarea cols="30" rows="5"></textarea></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td><button type="submit">Kirim</button></td>
-			</tr>
-		</table>
-	</form>		
-</body>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+		  <a class="navbar-brand" href="#my">Asep Suryana</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#bio">My Biografi</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#co">Contact</a>
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </nav>
+
+	<div class="p-5 mb-4 bg-light rounded-3 jumbotron" id="my">
+		<div class="container-lfuid py-5 text-center">
+			<p class="fs-5 fst-italic mt-5 text-center">Siswa Eduwork</p>
+			<h1 class="display-4">Asep Suryana</h1>
+			<div class="button">
+			<a href="http://www.instagram.com" class="btn btn-warning border boder-dark btn-sm mt-5 shadow-sm text-white px-3 py-2"
+			>My instagram
+			</a>
+			</div>
+		</div>
+	</div>  
+
+	<div class="container text-center" id="bio">
+		<h3 class="fs-bold fs-2">My Biografi</h3>
+		<p class="fs-6 fst-italic fw-light">
+			Haii perkenalkan nama saya Asep Suryana, berasal dari Kampung Cikajang,Kabupaten Garut, Jawa Barat.
+			Kesibukan saya saat ini adalah belajar programing di eduwork,
+			saya berharap dengan belajar di eduwork dapat menambah pengetahuan dan kemampuan saya dalam dunia teknologi.
+			Saya berharap dapat menjadi seorang programer yang handal dan dapat diandalkan oleh perusahaan tempat saya bekerja nanti.
+		</p>
+	</div>
+
+	<div class="row text-center">
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<h5 class="fs-4">Materi Yang di Pelajari</h5>
+				<ul class="navbar-toggler text-center fs-bold fst-italic">
+					<li>Git</li>
+					<li>FrontEnd</li>
+					<li>JavaScript</li>
+					<li>asynchronous</li>
+					<li>React JS</li>
+					<li>Node JS</li>
+					<li>My Sql</li>
+					<li>Mongo DB</li>
+				</ul>		
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<h5 class="fs-4">Rekan Siswa</h5>
+			<ul class="navbar-toggler text-center fs-bold fst-italic">
+				<li>Asep S</li>
+				<li>Bayu R</li>
+				<li>Baim</li>
+				<li>Sandi</li>
+				<li>Surya</li>
+			</ul>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-12">
+			<h5 class="fs-4">Skill Yang Dikuasai</h5>
+			<ul class="navbar-toggler text-center fs-bold fst-italic">
+				<li>Html</li>
+				<li>JavaScript</li>
+				<li>CSS</li>
+				<li>Phyton</li>
+				<li>Bootstrap</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="container mt-5 " id="co">
+		<h3 class="fs-bold fs-2 text-center mb-3">My Contact</h3>
+		<div class="card mx-auto" style="width: 600px;">
+		<div class="card-body">
+		  <div class="mb-3">
+			  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+			  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+			</div>
+			<div class="mb-3">
+			  <label for="exampleFormControlTextarea1" class="form-label">Massage</label>
+			  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			  </div>  
+			  <div class="d-grid gap-2">
+				  <button class="btn btn-warning border border-dark btn-sm mt-1 shadow-sm text-white px-3 py-2">
+					  Send
+				  </button>
+				  </div>
+			</div>
+		</div>
+	  </div> 
+
+	  <div class="container-lfluid bg-dark mb-0 mt-5">
+		  <footer>
+			  <p class="text-white text-center footer">&copy; 2021 Asep Suryana, Inc. All rights reserved
+
+			  </p>
+		  </footer>
+	  </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
